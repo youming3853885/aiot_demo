@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <title> Device ID </title>
+    <link rel="stylesheet" href="control.css">
+
+</head>
+<body>
+  <div id='control'>
+    <b id='input'> 請輸入 Device ID </br>
+      <input type="text" id="device_id"> </br> 
+      <input type="button" value="送出" onclick="test()" id='test_button'/>
+  </div>
+  <div id='demo-group'>
+    <img src="../../img/demo.jpeg" id='demo_img'></br>
+    <input type="button" value="新科技體驗用" onclick="location.href='../demo/demo.html'" id='demo_btn'>
+  </div>
+</body>
+
+<script>
+  function
+   test(){
+    var s =document.getElementById("device_id");
+    location.href="../planting/planting.html?"+"device_id="+encodeURI(s.value);
+  }
+</script>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <title> 自走車體驗區 </title>
+    <link rel="stylesheet" href="control.css">
+
+</head>
+<body>
+  <!-- <div id='control'>
+    <b id='input'> 請輸入 Device ID </br>
+    <input type="text" id="device_id"> </br> 
+    <input type="button" value="送出" onclick="test()" id='test_button'/> 
+  </div>
+  <div id='demo-group'>
+    <img src="../../img/demo.jpeg" id='demo_img'></br>
+    <input type="button" value="新科技體驗用" onclick="location.href='../demo/demo.html'" id='demo_btn'> </br>
+  </div> -->
+  <div class='first'>
+    <h1 id="head"> 自走車體驗區 </h1>
+  </div>
+  
+  <div class='boxies'>
+    <div id ="w1">
+      <div class='car-group'>
+        <a onclick="input_id()">
+          <img src="../../img/carid.png" id='carid-img'>
+        </a>
+      </div>
+    </div>
+    
+    <div id ="w2">
+      <div class='car-group'>
+        <a href="../demo1/demo.html">
+          <img src="../../img/car1.png" id='car1-img'>
+        </a>
+      </div>
+    </div>
+  
+    <div id ="w3">
+      <div class='car-group'>
+        <a href="../demo2/demo.html">
+          <img src="../../img/car2.png" id='car2-img'>
+        </a>
+      </div>
+    </div>
+  
+    <div id ="w4">
+      <div class='car-group'>
+        <a href="../demo3/demo.html">
+          <img src="../../img/car3.png" id='car3-img'>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+<script>
+  function input_id(){
+    var id = prompt("請輸入開發版 ID :", "devide id");
+    if (id != null) {
+      alert("你的 device id 為 ：" + id)
+      location.href="../car/car.html?"+"device_id="+encodeURI(id);
+    }
+  }
+</script>
+
+</html>

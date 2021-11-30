@@ -1,0 +1,147 @@
+html,body{
+  font-family:'Verdana';
+  background:#333;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.control_svg{
+  background-size : 100px 100px;
+}
+
+.st0{
+  opacity:0.92;
+  fill:#464544;
+  stroke:#231815;
+  stroke-width:3;
+  stroke-miterlimit:10;
+  enable-background:new 
+}
+
+.st1{
+  fill:#646461;
+  stroke:#231815;
+  stroke-width:3;
+  stroke-miterlimit:10;
+}
+
+.st2{
+  fill:#403F3E;
+}
+
+.st3_add, .st3_less{
+  fill:#F0919B;
+}
+
+
+.st4{
+  fill:#7FCCF2;
+}
+
+.st5_front, .st5_back, .st5_right, .st5_left, .st5_stop{
+  fill:#FFFFFF;
+}
+
+.st5_front:active, .st5_back:active, .st5_right:active, .st5_left:active, .st5_stop:active, .st3_add:active, .st3_less:active{
+  fill:#9AFF9A;
+}
+
+.st6{
+  opacity:0.92;
+  enable-background:new
+}
+
+#st7_connect{
+  fill:#7B7B7B;
+  stroke:#000000;
+  stroke-miterlimit:10;
+}
+
+
+.btn{
+  position:relative;
+  display:inline-block;
+  width:calc(33% - 8px);
+  height:60px;
+  background:#555;
+  margin:3px 1px;
+  text-align:center;
+  line-height:60px;
+  border-radius:5px;
+  color:#fff;
+  font-size:22px;
+  vertical-align: middle;
+  cursor:pointer;
+}
+
+.btn-group-content {
+  position:relative;
+  box-sizing:border-box;
+  width:100%;
+  max-width:550px;
+  padding:20px 10px;
+  margin:0 auto;
+  overflow: hidden;
+  pointer-events: auto!important;
+}
+
+#btn-group{
+  position:relative;
+  box-sizing:border-box;
+  width:100%;
+  max-width:550px;
+  padding:20px 10px;
+  margin:0 auto;
+  overflow: hidden;
+  pointer-events: auto!important;
+}
+
+.btn:active{
+  background:rgb(26, 155, 187);
+}
+
+@media (max-width:480px){
+  .btn{
+    height:50px;
+    line-height:50px;
+    font-size:20px;
+  }
+}
+
+@media (max-width:400px){
+  .btn{
+    height:45px;
+    line-height:45px;
+    font-size:18px;
+  }
+}
+
+.btn-group{
+  width:100%;
+  text-align:center;
+}
+
+.btn-group.direction{
+  margin-bottom:10px;
+}
+
+.btn-group.direction .btn{
+  height:80px;
+  line-height:80px;
+}
+
+@media (max-width:480px){
+  .btn-group.direction .btn{
+    height:70px;
+    line-height:70px;
+  }
+}
+
+@media (max-width:400px){
+  .btn-group.direction .btn{
+    height:60px;
+    line-height:60px;
+  }
+}

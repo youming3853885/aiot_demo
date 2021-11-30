@@ -1,0 +1,34 @@
+#msg, form {
+  font-size: 20px;
+  margin: 5px;
+}
+
+#device {
+  max-width: 100px;
+  height: 34px;
+}
+
+#set {
+  width: 70px;
+  height: 40px;
+}
+
+#msg.default::after {
+  content: "None!";
+}
+
+#msg.waiting::after {
+  content: "Loading...";
+}
+
+#msg.ready::after {
+  content: "Ready!";
+}
+
+#msg.setting::after {
+  content: "Setting...";
+}
+
+#msg.set::after {
+  content: "Complete!";
+}
