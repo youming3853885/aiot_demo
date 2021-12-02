@@ -54,7 +54,7 @@ window.addEventListener("onorientationchange" in window ? "orientationchange" : 
 
 boardReady({board: 'Smart', device: device_id, transport: 'mqtt'}, function (board) {
   board.samplingInterval = 50;
-  car = getToyCar(board, 14, 16, 2, 5);
+  car = getToyCar(board, 16, 14, 2, 5);
   speed = 100;
   car.setRightSpeed(speed);
   car.setLeftSpeed(speed);
