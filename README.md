@@ -1,4 +1,4 @@
 # aiot_demo
 
 體驗網站
-https://.github.io/aiot_demo/
+https://youming3853885.github.io/aiot_demo/
